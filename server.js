@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 const accountSid = "AC1dae4c12842289f635f488f533070d33";
-const authToken = "bc39892cd7e1705185558a57e2dfbfe9";
+const authToken = "d67f98addff6366aa93834e46bf4203f";
 const twilioNumber = +12186585527;
 
 const client = twilio(accountSid, authToken);
