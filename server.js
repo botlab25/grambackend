@@ -21,7 +21,7 @@ app.post("/send-otp", async (req, res) => {
   const msgOption = {
     from: twilioNumber,
     to: phoneNumber,
-    body: `Your OTP is: ${otp}`,
+    body: `Hey there! Your OTP is: ${otp}. Use it to complete your verification. Remember, this code is just for you—don’t share it!`,
   };
 
   try {
